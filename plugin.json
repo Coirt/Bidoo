@@ -1,6 +1,6 @@
 {
   "slug": "Bidoo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "BSD-3-Clause",
   "name": "Bidoo",
   "brand": "Bidoo",
@@ -25,7 +25,7 @@
     {
       "slug": "ChUTE",
       "name": "ChUTE",
-      "description": "Space/Strange trigger based on the\nfree fall and bouncing an object.\nYou can change the drop altitude\nbetween 1cm and 3m\n",
+      "description": "Space/Strange trigger based on the\nfree fall and bounce of an object.\nYou can change the drop altitude\nbetween 1cm and 3m and adjust\nthe C.O.R. (Coeficiant Of Restitution).\n\nOutputs provide a gate based on the\ndownside of movements:\n The relitive tension of Altitude and\nthe top of the rebounds.\n",
       "tags": [
         "Sequencer"
       ]
@@ -33,15 +33,15 @@
     {
       "slug": "antN",
       "name": "antN",
-      "description": "antN",
+      "description": "mp3/pls/m3u stream player.\nPut a valid url in the text\nfield and push listen.\nThat is all :)\n",
       "tags": [
-        "Oscillator"
+        "VCO"
       ]
     },
     {
       "slug": "tOCAnTe",
       "name": "tOCAnTe",
-      "description": "tOCAnTe",
+      "description": "Clock with triplets and\nmeasure management.\n",
       "tags": [
         "Clock"
       ]
@@ -49,7 +49,7 @@
     {
       "slug": "cuRt",
       "name": "cuRt",
-      "description": "cuRt",
+      "description": "cuRt\n",
       "tags": [
         "Effect"
       ]
@@ -57,7 +57,7 @@
     {
       "slug": "ACnE",
       "name": "ACnE",
-      "description": "ACnE",
+      "description": "A very simple and compact\npatch-bay/mixer. 16 in by\n8 out. There is 16 scenes\nto choose from and a\ncopy/paste function which\nallows you to quickly\ninitialize scenes.\n",
       "tags": [
         "Mixer"
       ]
@@ -65,7 +65,7 @@
     {
       "slug": "baR",
       "name": "baR",
-      "description": "baR",
+      "description": "A stereo peak compressor\nshowing 300ms and 100ms\nRMS of the signal.\n",
       "tags": [
         "Dynamics"
       ]
@@ -73,7 +73,7 @@
     {
       "slug": "BISTROT",
       "name": "BISTROT",
-      "description": "BISTROT",
+      "description": "Bit crusher\n",
       "tags": [
         "Effect",
         "Distortion"
@@ -82,7 +82,7 @@
     {
       "slug": "bordL",
       "name": "bordL",
-      "description": "bordL",
+      "description": "Based on dTrOY but it is a\nlittle bit more powerful.\nSee Manual for more details....\n",
       "tags": [
         "Sequencer"
       ]
@@ -90,7 +90,7 @@
     {
       "slug": "cANARd",
       "name": "cANARd",
-      "description": "cANARd",
+      "description": "Live sampler. You can chose\nbetween two REC modes, the\n1st, each record replaces the\nprevious, the 2nd mode allows\nto stack samples.\n",
       "tags": [
         "Sampler"
       ]
@@ -98,7 +98,7 @@
     {
       "slug": "clACos",
       "name": "clACos",
-      "description": "clACos \n\nPG",
+      "description": "Phase distortion oscillator\nlike TiARE but here you have\nonly one output and each cycle\nis split in 4 parts. You can\nchoose your wave form and phase\ndistortion per part.\n",
       "tags": [
         "Oscillator"
       ]
@@ -114,7 +114,7 @@
     {
       "slug": "dTrOY",
       "name": "dTrOY",
-      "description": "dTrOY",
+      "description": "Detroit Toy. A single line sequencer\nbut with nice features inspired\nby Roland 185, DU-SEQ, Metropolis\nhardware sequencers.\nSee Manual for more details....\n",
       "tags": [
         "Sequencer"
       ]
@@ -122,7 +122,7 @@
     {
       "slug": "dUKe",
       "name": "dUKe",
-      "description": "dUKe",
+      "description": "A simple but very efficient 4x CV\ncontroller. You can choose between\n-5v/5V or 0V/10V and set the MAX and\nMIN for each slider.\n",
       "tags": [
         "Controller"
       ]
@@ -138,7 +138,7 @@
     {
       "slug": "FFilTr",
       "name": "FFilTr",
-      "description": "FFilTr \n\nPG",
+      "description": "FFilTr \n",
       "tags": [
         "VCF",
         "filter",
@@ -148,7 +148,7 @@
     {
       "slug": "ForK",
       "name": "ForK",
-      "description": "ForK",
+      "description": "An oscillator based on a particular\napproach of formant synthesis.\nVowel sounds are more fun at low\nand mid frequencies. You can\ntweak frequency F and gain G on\n4 bands. Presets button lets you\nhear typical French vowels settings.\n\nWarning!! this model creates DC\noffset at high frequencies.\n",
       "tags": [
         "Oscillator"
       ]
@@ -164,7 +164,7 @@
     {
       "slug": "HCTIP",
       "name": "HCTIP",
-      "description": "Pitch shifter\n\nPG",
+      "description": "Pitch shifter\n",
       "tags": [
         "Effect"
       ]
@@ -172,7 +172,7 @@
     {
       "slug": "lATe",
       "name": "lATe",
-      "description": "Clock Modulator, Takes a clock input\nand applies a delay on even ticks to\ncreate swing. Reset sets the next tick\nfor the incoming clock to odd.\n \n\nPG",
+      "description": "Clock Modulator, Takes a clock input\nand applies a delay on even ticks to\ncreate swing. Reset sets the next tick\nfor the incoming clock to odd.\n",
       "tags": [
         "Logic",
         "Sequencer",
@@ -182,7 +182,7 @@
     {
       "slug": "lIMbO",
       "name": "lIMbO",
-      "description": "4th order stereo LP ladder filter.\nGain boosts the signal to compensate for\nglobal signal energy lose at high\nresonance. When non linear is selected gain is applied to each stage \n\nPG",
+      "description": "4th order stereo LP ladder filter.\nGain boosts the signal to compensate for\nglobal signal energy lose at high\nresonance. When non linear is selected gain is applied to each stage\n",
       "tags": [
         "VCF",
         "filter",
@@ -208,7 +208,7 @@
     {
       "slug": "MOiRE",
       "name": "MOiRE",
-      "description": "MOiRE",
+      "description": "16 scenes with 16 CV controllers\nand a fader to morph between\nthem. Outputs can be switched\nbetween -5v/+5v and 0v/10v.\n",
       "tags": [
         "Controller"
       ]
@@ -216,7 +216,7 @@
     {
       "slug": "MS",
       "name": "MS",
-      "description": "Mid/Side Decoder/Encoder \n\nPG",
+      "description": "Mid/Side Decoder/Encoder\n",
       "tags": [
         "Effect"
       ]
@@ -224,7 +224,7 @@
     {
       "slug": "MU",
       "name": "µ",
-      "description": "Synced pulse generator \n\nPG",
+      "description": "Synced pulse generator.\nSee manual for more details...\n",
       "tags": [
         "Logic",
         "Sequencer"
@@ -233,7 +233,7 @@
     {
       "slug": "OUAIve",
       "name": "OUAIve",
-      "description": "OUAIve",
+      "description": "Sample player with Trig mode,\nSlice mode and Gate mode.\nSee manual for more details...\n",
       "tags": [
         "Sampler"
       ]
@@ -249,7 +249,7 @@
     {
       "slug": "pErCO",
       "name": "pErCO",
-      "description": "pErCO \n\nPG",
+      "description": "Filter with Low Pass, Band Pass\nand High Pass outputs.\n",
       "tags": [
         "VCF",
         "filter",
@@ -259,7 +259,7 @@
     {
       "slug": "rabBIT",
       "name": "rabBIT",
-      "description": "rabBIT \n\nPG",
+      "description": "rabBIT\n",
       "tags": [
         "Effect",
         "Distortion"
@@ -268,7 +268,7 @@
     {
       "slug": "REI",
       "name": "REI",
-      "description": "REI \n\nPG",
+      "description": "REI\n",
       "tags": [
         "Reverb"
       ]
@@ -276,7 +276,7 @@
     {
       "slug": "SIGMA",
       "name": "Σ multiprise :)",
-      "description": "Σ Mult \n\nPG",
+      "description": "Σ Mult\n",
       "tags": [
         "Multiple"
       ]
@@ -284,7 +284,7 @@
     {
       "slug": "TiARE",
       "name": "TiARE",
-      "description": "TiARE \n\nPG Analogue mode does not work!",
+      "description": "Analog mode coming soon!\n",
       "tags": [
         "Oscillator",
         "LFO"
@@ -293,7 +293,7 @@
     {
       "slug": "ziNC",
       "name": "ziNC",
-      "description": "ziNC \n\nPG",
+      "description": "16 band vocoder.\nControl Attack(A) and Decay(D)\nof the envelope follower. MOD,\nCAR and OUT are gain stages\nfor each path.\n",
       "tags": [
         "Effect",
         "Vocoder"
